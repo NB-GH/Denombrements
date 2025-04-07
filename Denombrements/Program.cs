@@ -27,6 +27,11 @@ namespace Denombrements
             int n = int.Parse(Console.ReadLine());
             return n;
         }
+        /// <summary>
+        /// factorielle du nobre total des éléments
+        /// </summary>
+        /// <param name="nbTotal">nb total des éléments</param>
+        /// <returns></returns>
         static long factorielle(int nbTotal)
         {
             // calcul de r                                  
@@ -52,8 +57,6 @@ namespace Denombrements
             }
             return r1;
         }
-
-
         /// <summary>
         /// proposer des tests sur les permutations, les arrangements et les combinaisons
         /// </summary>
